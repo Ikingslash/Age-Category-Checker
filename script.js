@@ -1,5 +1,5 @@
 // Prompt the user to enter their age
-let age = prompt("Please enter your age to check your category:");
+let age = Number(prompt("Please enter your age to check your category:"));
 // Check if input is not a valid number or empty
 if (age === "" || isNaN(age)) {
   alert("Please enter a valid number for your age.");
